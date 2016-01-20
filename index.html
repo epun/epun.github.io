@@ -1,1 +1,557 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Evan Pun</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Animation Libraries -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magic.min.css">
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900%7COpen+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <!-- Fonts Icons -->
+    <link rel="stylesheet" href="css/custom-icons.css">
+    <link rel="stylesheet" href="css/et-line-icons.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/nivo-lightbox/lightbox-theme.css">
+    <!-- Animated Headlines -->
+    <link rel="stylesheet" href="css/animated-hedlines.css">
+    <!-- Youtube Background Player -->
+    <link rel="stylesheet" href="css/YTPlayer.css">
+    <!-- Main Styles -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Theme -->
+    <link href="css/theme/black-white.css" rel="stylesheet" data-color="" id="theme">
+    <!-- Animsition -->
+    <link href="css/animsition.min.css" rel="stylesheet">
+    <!-- Favicon (retina) -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+</head>
+
+<body>
+    <!-- Page Wrapper -->
+    <div id="page" class="animsition" data-animsition-in="flip-in-x" data-animsition-out="fade-out-up-sm" data-loader-type="loader2" data-page-loader-text="EP" style="transform-origin: 50% 50vh;">
+        <div id="top"></div>
+        <!-- Home Section -->
+        <section id="home-section" class="home-section full-screen perspect">
+            <div class="zoom-hero full-screen home-bg overlay" data-top="transform: rotateX(0deg)" data-top-bottom="transform:  rotateX(+110deg)" data-anchor-target="#home-section">
+                <div class="hs-content full-screen">
+                  <div id="particles" class="particles"></div>
+                <div class="hs-content">
+                    <div class="hs-content-inner">
+                        <div class="init-animation-2 delay0-2s">
+                    <div class="hs-content-inner text-left">
+                        <div class="init-animation-4 delay0-6s">
+                            <h1 class="hs-text-12 font-second"><span>Evan</span> Pun</h1>
+                             <div class="init-animation-4 delay0-4s">
+                            <h2 class="font-second hs-text-3">DESIGNER</h2>
+                        </div>
+                        </div>
+                    </div>
+                    <span class="scroll-down-arrow in-page-scroll" data-start="display: inline-block" data-100-start="display: none">
+                    <a href="#about-section" class="ci-icon-uniE930 init-animation-2 delay1-8s"></a>
+                </span>
+                </div>
+            </div>
+        </section>
+        <!--/ End Home Section -->
+        <!-- Navbar -->
+        <div class="position-relative">
+            <!-- sticky: 1) remove"transp-nav" class, add class="sticky-navbar" to #nav-wrapper | 2) remove navbar-fixed-top class from #nav [and navbar-transparent class too] -->
+            <div id="nav-wrapper" class="transp-nav">
+                <nav id="nav" class="navbar navbar-fixed-top navbar-transparent navbar-default ripple-group-parent init-animation-1" role="navigation">
+                    <!-- progressbar -->
+                    <div id="scroll-progressbar" class="scroll-progressbar">
+                        <div>
+                            <span class="scroll-shadow"></span>
+                        </div>
+                    </div>
+                    <div class="container in-page-scroll">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" id="animated-navicon" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand ripple-group" href="#top">
+                                <div class="navbar-logo pull-left">
+                                    <img src="img/logo/logo-black.png" alt="logo" />
+                                </div>
+                                <p class="pull-left font-second"></p>
+                            </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="mobile-navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right cl-effect-5">
+                                <li>
+                                    <a class="ripple-group" href="#top">
+                                        <span data-hover="home">home</span>
+                                    </a>
+                                </li>
+                                      <li>
+                                    <a class="ripple-group" href="#portfolio-section">
+                                        <span data-hover="portfolio">portfolio</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group" href="#services-section">
+                                        <span data-hover="services">services</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group" href="#contact-section">
+                                        <span data-hover="contact">contact</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container -->
+                </nav>
+            </div>
+        </div>
+        <!--/ End Navbar -->
+ <!--Start Works Section -->
+            <section id="portfolio-section" class="portfolio-section portfolio-section-light section text-center no-padding-bottom">
+                <div class="container">
+                    <div class="section-title">
+                        <div class=" section-title-more">
+                        </div>
+                        <div>
+                            <h1 class="section-title-heading"><span>portfolio</span></h1>
+                        </div>
+                    </div>
+                    <!-- Start Works Buttons -->
+                    <!--<div id="portfolio-filters" class="portfolio-filters margin-top-10 ripple-group-parent wow fadeIn" data-wow-offset="100" data-wow-delay=".1s">
+                        <a class="btn btn-animated btn-split ripple-group" data-text="all works" data-filter="*">
+                            <span class="btn-icon icon-tools"></span>
+                        </a>
+                        <span class="btn-seperator">|</span>
+                        <a class="btn btn-animated btn-split ripple-group" data-text="app design" data-filter=".web-design">
+                            <span class="btn-icon icon-browser"></span>
+                        </a>
+                        <span class="btn-seperator">|</span>
+                        <a class="btn btn-animated btn-split ripple-group" data-text="web design" data-filter=".video">
+                            <span class="btn-icon icon-video"></span>
+                        </a>
+                        <span class="btn-seperator">|</span>
+                        <a class="btn btn-animated btn-split ripple-group" data-text="product design" data-filter=".photo">
+                            <span class="btn-icon icon-camera"></span>
+                        </a>
+                    </div>-->
+                    <!--/ End Works Buttons -->
+                </div>
+                <!-- /.container -->
+                <!-- Works Items -->
+                <div class="container">
+                    <ul id="portfolio-container" class="portfolio-container real-gapped clearlist row portfolio-hover-effect">
+                        <li class="portfolio-item photo video col-sm-6 col-md-4 col-xs-12">
+                            <div class="portfolio-item-img">
+                                <img src="img/portfolio/grid-works/firstderm-3d-thumbnail.jpg" alt="portfolio" />
+                            </div>
+                            <div class="portfolio-item-info font-second">
+                                <h3 class="portfolio-item-title">First Derm App</h3>
+                                <div class="portfolio-item-detail">
+                                    <p></p>
+                                    <!-- LightBox Button -->
+                                    <a href="img/portfolio/grid-works/firstderm-3d-thumbnail.jpg" title="This is an image title" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/grid-works/work01_lg@2x.jpg"></a>
+                                    <!--/ End LightBox Button -->
+                                    <a href="First Derm.html" class="animsition-link icon-attachment"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--/ End Work Item -->
+                        <div class="container">
+                    <ul id="portfolio-container" class="portfolio-container real-gapped clearlist row portfolio-hover-effect">
+                        <li class="portfolio-item photo video col-sm-6 col-md-4 col-xs-12">
+                            <div class="portfolio-item-img">
+                                <img src="img/portfolio/grid-works/zenspace-nasa-thumbnail.jpg" alt="portfolio" />
+                            </div>
+                            <div class="portfolio-item-info font-second">
+                                <h3 class="portfolio-item-title">NASA Mental Health App</h3>
+                                <div class="portfolio-item-detail">
+                                    <p></p>
+                                    <!-- LightBox Button -->
+                                    <a href="img/portfolio/grid-works/zenspace-nasa-thumbnail.jpg" title="This is an image title" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/grid-works/work01_lg@2x.jpg"></a>
+                                    <!--/ End LightBox Button -->
+                                    <a href="nasa_page.html" class="animsition-link icon-attachment"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--/ End Work Item -->
+                       <li class="portfolio-item web-design video col-sm-6 col-md-4 col-xs-12">
+                            <div class="portfolio-item-img">
+                                <img src="img/portfolio/grid-works/akeso.png" alt="portfolio" />
+                            </div>
+                            <div class="portfolio-item-info font-second">
+                                <h3 class="portfolio-item-title">Berkeley-Haas/UCSF/IDEO</h3>
+                                <div class="portfolio-item-detail">
+                                    <p></p>
+                                    <!-- LightBox Button -->
+                                    <a href="img/portfolio/grid-works/outsidelands.png" title="This is an image title" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/grid-works/work04_lg@2x.jpg"></a>
+                                    <!--/ End LightBox Button -->
+                                    <a href="akeso_page.html" class="animsition-link icon-attachment"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--/ End Work Item -->
+                        <li class="portfolio-item web-design video col-sm-6 col-md-4 col-xs-12">
+                            <div class="portfolio-item-img">
+                                <img src="img/portfolio/grid-works/Hud-thumbnail.png" alt="portfolio" />
+                            </div>
+                            <div class="portfolio-item-info font-second">
+                                <h3 class="portfolio-item-title">HÜD Skin Cancer Scanner</h3>
+                                <div class="portfolio-item-detail">
+                                    <p></p>
+                                    <!-- LightBox Button -->
+                                    <a href="img/portfolio/grid-works/Hud-thumbnail.png" title="This is an image title" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/grid-works/work04_lg@2x.jpg"></a>
+                                    <!--/ End LightBox Button -->
+                                    <a href="hud_page.html" class="animsition-link icon-attachment"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--/ End Work Item -->
+                        <li class="portfolio-item photo web-design col-sm-6 col-md-4 col-xs-12">
+                            <div class="portfolio-item-img">
+                                <img src="img/portfolio/grid-works/favoritethings-thumbnail.png" alt="portfolio" />
+                            </div>
+                            <div class="portfolio-item-info font-second">
+                                <h3 class="portfolio-item-title">Fun Stuff</h3>
+                                <div class="portfolio-item-detail">
+                                    <p>Hackathons and Illustrations</p>
+                                    <!-- LightBox Button -->
+                                    <a href="img/portfolio/grid-works/favoritethings-thumbnail.png" title="This is an image title" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1"></a>
+                                    <!--/ End LightBox Button -->
+                                    <a href="Evan Pun Me/Funstuff.html" class="animsition-link icon-attachment"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--/ End Work Item -->
+                        <li class="portfolio-item photo web-design col-sm-6 col-md-4 col-xs-12">
+                            <div class="portfolio-item-img">
+                                <img src="img/portfolio/grid-works/ibmhedge-thumbnail.jpg" alt="portfolio" />
+                            </div>
+                            <div class="portfolio-item-info font-second">
+                                <h3 class="portfolio-item-title">IBM Watson</h3>
+                                <div class="portfolio-item-detail">
+                                    <p></p>
+                                    <!-- LightBox Button -->
+                                    <a href="img/portfolio/grid-works/ibmhedge-thumbnail.jpg" title="IBM Watson App: SF Life" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/grid-works/work06_lg@2x.jpg"></a>
+                                    <!--/ End LightBox Button -->
+                                    <a href="IBM_page.html" class="animsition-link icon-attachment"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--/ End Work Item -->
+                    </ul>
+                    <!--/ End Works Items -->
+                </div>
+            </section>
+            <!--/ End Works Section -->
+            <!-- Project Order Section -->
+            <div class="project-order-section-light in-page-scroll small-section text-center">
+                <a href="#contact-section" class="btn btn-animated btn-split btn-dark ripple-alone" data-text="Have a Project in Mind?"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let's do it then&nbsp;..&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+            </div>
+            <!--/ End Project Order Section -->
+
+        <div id="page-2">
+            <!-- Featured Video Section -->
+            <!--   <a id="featured-video" class="featured-video overlay ripple-alone lightbox" href="https://www.youtube.com/watch?v=3FaVQcEjHUc"> -->
+            <!-- parallax video background -->
+            <!--       <div class="parallax-section-bg overlay full-screen video-background" data-vide-bg="mp4: video/shore, webm: video/shore, ogv: video/shore, poster: video/shore" data-vide-options="position: 50% 50%" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -35%, 0px)" data-bottom-top="transform: translate3d(0px, -85%, 0px)" data-anchor-target="#featured-video"></div> -->
+            <!--/ End parallax video background -->
+            <!--          <div class="featured-vid-inner">
+                    <h3><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;watch</span> our&nbsp;</h3> <span class="btn-play"></span>
+                    <h3>&nbsp;featured <span>video</span></h3>
+                </div>
+            </a> -->
+            <!--/ End Featured Video Section -->
+            
+            <!-- Services Section -->
+            <section id="services-section" class="services-section section">
+                <div class="container">
+                    <div class="section-title">
+                        <div>
+                            <h1 class="section-title-heading"><span>services</span> for hire</h1>
+                        </div>
+                    </div>
+                    <div class="services-section-items padding-top-sm-10 row">
+                        <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpLeftScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-lightbulb"></i>
+                            </div>
+                            <h4 class="services-item-title font-second"></h4>
+                            <div class="services-section-item-text">
+                                <p>Conceptualization</p>
+                                <p>Market Research</p>
+                                <p>Branding</p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                        <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-target"></i>
+                            </div>
+                            <h4 class="services-item-title font-second"></h4>
+                            <div class="services-section-item-text">
+                                <p>Wireframing</p>
+                                <p>Prototyping</p>
+                                <p>Usability Testing</p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                        <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpRightScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-phone"></i>
+                            </div>
+                            <h4 class="services-item-title font-second"></h4>
+                            <div class="services-section-item-text">
+                                <p>UX/UI Design</p>
+                                <p>Mobile App Design</p>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                    <!--/.row -->
+                </div>
+                <!--/.container -->
+            </section>
+            <!--/ End Services Section -->
+            <!-- Clients Testimonials Section -->
+             <section id="client-testimonials" class="client-testimonials section  overlay">
+                <!-- Parallax Image Background -->
+                <div class="parallax-section-bg client-testimonials-bg overlay full-screen" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -25%, 0px)" data-bottom-top="transform: translate3d(0px, -75%, 0px)" data-anchor-target="#client-testimonials"></div>
+                <!--/ End Parallax Image Background -->
+                <div class="container">
+                    <div class="section-title padding-bottom-40">
+                        <div class=" section-title-more">
+                        </div>
+                        <div>
+                            <h1 class="section-title-heading"><span>clients</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <!--/ .container -->
+                <div id="testimonials" class="testimonials owl-carousel carousel">
+                    <div class="testimo-item">
+                        <div class="container">
+                            <blockquote>
+                                <p>"Evan is one of the most hard working, passionate, and team oriented people I've worked with. I know he will be a key part in making a dent in our future for social impact and innovation"</p>
+                                <footer class="">Francis Kong
+                                    <cite title="Source Title">Edge Interns</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <!--/ .container -->
+                    </div>
+                    <!--/ End Testimonials Item -->
+                    <!--<div class="testimo-item">
+                        <div class="container">
+                            <blockquote>
+                                <p>"Ratione, iure obcaecati laborum adipisci ipsam illo, accusantium sit, molestiae minima perspiciatis nulla temporibus illum. Molestias totam suscipit sequi, sed optio!offici."</p>
+                                <footer class="">Rafael Ando
+                                    <cite title="Source Title">raindrop inc.</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <!--/ .container -->
+                    </div>
+                    <!--/ End Testimonials Item -->
+                    <!--<div class="testimo-item">
+                        <div class="container">
+                            <blockquote>
+                                <p>"Illo fuga, enim perspiciatis et aut ad. Earum quidem minima magnam consectetur deserunt sed id amet, doloribus veritatis, eligendi omnis, voluptas illum.molestiae."</p>
+                                <footer class="">Johny rich
+                                    <cite title="Source Title">ennax studio</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <!--/ .container -->
+                    </div>
+                    <!--/ End Testimonials Item -->
+                </div>
+                <!--/ End Testimonials Content -->
+            </section>
+            <!--/ End Clients Testimonials Section -->
+            <!-- Contact Section -->
+            <section id="contact-section" class="section contact-section">
+                <div class="container">
+                    <div class="section-title">
+                        <div class=" section-title-more">
+                            Say hello
+                        </div>
+                        <div>
+                            <h2 class="section-title-heading"><span>contact</span></h2>
+                        </div>
+                    </div>
+                    <div class="row padding-bottom-sm-90">
+                        <div class="col-sm-4">
+                            <div class="contact-item margin-bottom-xs-40"><i class="icon-phone"></i>
+                                <p>Phone:(832) 646 1157
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="contact-item margin-bottom-xs-40"><i class="icon-map-pin"></i>
+                                <p>San Francisco, CA, USA</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="contact-item margin-bottom-xs-40"><i class="icon-envelope"></i>
+                                <p>evan91@Gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-offset-1 col-md-10">
+                            <form id="ajax-contact" class="" method="post" action="mailer.php">
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="input col-xs-12 col-sm-12 padding-bottom-xs-50 padding-bottom-40">
+                                            <label class="input-label" for="name">
+                                                <span class="input-label-content font-second" data-content="name">name *</span>
+                                            </label>
+                                            <input class="input-field" type="text" name="name" id="name" required />
+                                        </div>
+                                        <div class="input col-xs-12 col-sm-6 padding-bottom-xs-50 padding-bottom-50">
+                                            <label class="input-label" for="email">
+                                                <span class="input-label-content font-second" data-content="email">email *</span>
+                                            </label>
+                                            <input class="input-field" type="email" name="email" id="email" required />
+                                        </div>
+                                        <div class="input col-xs-12 col-sm-6 padding-bottom-xs-60 padding-bottom-50">
+                                            <label class="input-label" for="company">
+                                                <span class="input-label-content font-second" data-content="company">company</span>
+                                            </label>
+                                            <input class="input-field" type="text" name="company" id="company" />
+                                        </div>
+                                        <div class="message col-xs-12 col-sm-12 padding-bottom-xs-40 padding-bottom-30">
+                                            <label class="textarea-label font-second" for="message">message *</label>
+                                            <textarea class="input-field textarea" name="message" id="message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div id="form-messages" class="form-message"></div>
+                                    <div class="col-xs-12 margin-top-30 text-center">
+                                        <button id="btn-submit" type="submit" class="btn btn-animated btn-contact ripple-alone" data-text="send it"><span class="btn-icon"><span class="loader-parent"><span class="loader3"></span></span>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <!--/ End form -->
+                        </div>
+                        <!--/ .col -->
+                    </div>
+                    <!--/ .row -->
+                </div>
+                <!--/ .container -->
+            </section>
+            <!--/ End Contact Section -->
+            <!--/ Map Section -->
+            <div id="map-section" class="map-section">
+                <!-- map opener -->
+                <div id="map-opener" class="map-mask">
+                    <div class="map-opener">
+                        <div class="font-second">locate us on the map<i class="ci-icon-uniE930"></i></div>
+                        <div class="font-second">close the map<i class="ci-icon-uniE92F"></i></div>
+                    </div>
+                </div>
+                <!--/ End map opener -->
+                <div id="google-map">
+                    <div id="map-canvas" data-address="San Francisco,CA, USA"></div>
+                    <div id="map-zoom-in"></div>
+                    <div id="map-zoom-out"></div>
+                </div>
+            </div>
+            <!--/ End Map Section -->
+            <!-- Footer Section -->
+            <footer class="footer-section section no-padding-bottom light-footer">
+                <!-- footer logo -->
+              <div class="footer-logo">
+            <center><img src="img/logo/Evan sm circle.png" alt="logo" /></center>
+            </div>
+                <!--/ End footer logo -->
+                <!-- Social icons -->
+                <div class="footer-social">
+                <a href="https://twitter.com/evanpun" class="fa fa-twitter wow fadeIn" data-wow-offset="150" data-wow-delay=".15s"></a>
+                <a href="https://plus.google.com/u/1/115909961233199030808/posts" class="fa fa-google-plus wow fadeIn" data-wow-offset="150" data-wow-delay=".3s"></a>
+                </div>
+                <!--/ End Social icons -->
+                <!-- go top pop-up -->
+                <div id="go-top" class="go-top go-top-out in-page-scroll">
+                    <div class="circle1"></div>
+                    <a href="#top" class="square"><span></span></a>
+                    <div class="rectangle"></div>
+                    <div class="circle2"></div>
+                </div>
+                <!--/ End go top pop-up -->
+                <div class="footer-bottom">
+                    <!-- Copyright -->
+                    <a class="footer-bottom-text font-second" href="http://themeforest.net/item/volar-one-page-parallax-template/11698815" target="_blank">Evan Pun © 2016. All Right Reserved.</a>
+                    <!-- End Copyright -->
+                </div>
+            </footer>
+            <!--/ End Footer Section -->
+        </div>
+        <!--/ #page-2 -->
+    </div>
+    <!--/ #page -->
+    <!-- JS Scripts -->
+    <script src="js/modernizr.min.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script src="js/jquery.animsition.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/animateSlider.js"></script>
+    <script src="js/animated-headlines.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/jquery.vide.min.js"></script>
+    <script src="js/jquery.particleground.min.js"></script>
+    <script src="js/fss.min.js"></script>
+    <script src="js/fssinit.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/contactForm.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="js/scripts.min.js"></script>
+    <!--/ End JS Scripts -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55790322-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+
+</html>
